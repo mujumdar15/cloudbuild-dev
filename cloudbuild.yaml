@@ -2,7 +2,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/git'
   id: 'Clone'
-  args: ['clone', 'cloudbuild-dev']
+  args: ['clone', 'https://github.com/mujumdar15/cloudbuild-dev.git']
 
 # This step builds the container image.
 
