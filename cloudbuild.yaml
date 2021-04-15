@@ -36,5 +36,5 @@ steps:
   id: Deploy
   args: ['apply' , '-f' , 'deployment.yaml']
   env:
-  - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c/us-central1'
+  - 'CLOUDSDK_COMPUTE_ZONE=us-central1/us-central1-c'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-1'
