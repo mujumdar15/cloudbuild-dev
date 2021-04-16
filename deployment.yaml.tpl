@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gcr.io/$PROJECT_ID/web:latest
+        image: gcr.io/yash-dev-306417/web:latest
         ports:
         - containerPort: 80
 ---
